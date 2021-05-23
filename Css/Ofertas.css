@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: url(../Imagenes/fondo.jpg);
+    font-family: 'Oswald', sans-serif;
+}
+
+.logoi{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 5px;
+    padding: 0;
+    
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background: #222831;
+}
+
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0 5px;
+    line-height: 80px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+
+nav li{
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+a.activacion,a:hover{
+    border: 1px solid white;
+    transition: .5s;
+}
+
+.footer{
+    background-color: #222831;
+    padding: 1px 0;
+    
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer1{
+    width: 80%;
+    padding: 10px;
+   
+}
+
+.footer1 h4{
+font-size: 18px;
+color: white;
+text-transform: capitalize;
+margin-bottom: 10px;
+font-weight: 500;
+position: relative;
+}
+
+
+.footer2 h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: 500;
+    position: relative;
+    }
+
+.footer1 li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer2 li a{
+    text-decoration: none;
+    color: white;
+}
+
+.imagen1 img{
+    width: 1000px;
+    padding: 30px;
+}
+.imagen1{
+    
+ position: relative;
+    width: 900px;
+    height: 450px;
+    left: 740px;
+    top: 150px;
+    margin-bottom: 20%;
+        
+}
+.texto hgroup{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.parrafos{
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+.parrafos p{
+    color: rgb(236, 236, 236);
+    font-size: 25px;
+    right: 5px;
+    margin-top: 20px;
+}
+.parrafos{
+    color: #fff;
+    column-count: 3;
+    margin-top: 50px;
+}
+.imagen2 img{
+    width: 98.9%;
+ position: relative;
+ left: 5px;
+       
+top: 40px;
+    margin-bottom: 95px;
+}
+.texto2 hgroup{
+    text-align: center;
+    font-size: 25px;
+ margin-top: 5px;
+
+ margin-bottom: 10px;
+}
+
+.figura1{
+    margin-left: 10px;
+    width: 650px; 
+     height: 280px; 
+     background: #354150;
+    margin: auto;
+    
+    margin-top: 150px;
+}
+
+
+ .epic1 {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    left: 330px;
+    top: -58px;
+   
+   
+} 
+ .figura1 p{
+    position: relative;
+    width: 40%;
+   top: 55PX;
+   margin-left: 15px;
+   text-align: justify;
+   color:white;
+   font-size: 15px;
+
+}
+.figura2{
+    position: relative;
+    width: 650px; 
+    height: 280px; 
+    bottom: 280px;
+    margin-left: 1000px ;
+    background: #354150;
+    
+    
+}
+
+
+ .epic2 {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    left: 330px;
+    top: -120px;
+   
+   
+} 
+ .figura2 p{
+     position: relative;
+     width: 40%;
+    top: 55PX;
+    margin-left: 15px;
+    text-align: justify;
+    color:white;
+    font-size: 15px;
+}
+
+h1{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 60px;
+    
+}
+
+h5{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(65, 175, 175);
+}
+
+.videojuegos{
+    width: 100px;
+    margin-left: 470px;
+   
+}
+

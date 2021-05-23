@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: url(../Imagenes/fondo.jpg);
+    font-family: 'Oswald', sans-serif;
+}
+
+.logoi{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 5px;
+    padding: 0;
+    
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background: #222831;
+}
+
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0 5px;
+    line-height: 80px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+
+nav li{
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+a.activacion,a:hover{
+    border: 1px solid white;
+    transition: .5s;
+}
+
+.footer{
+    background-color: #222831;
+    padding: 1px 0;
+    
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer1{
+    width: 80%;
+    padding: 10px;
+   
+}
+
+.footer1 h4{
+font-size: 18px;
+color: white;
+text-transform: capitalize;
+margin-bottom: 10px;
+font-weight: 500;
+position: relative;
+}
+
+
+.footer2 h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: 500;
+    position: relative;
+    }
+
+.footer1 li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer2 li a{
+    text-decoration: none;
+    color: white;
+}
+
+.padre{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    text-align: center;
+}
+
+.precio{
+    color: palevioletred;
+}
+
+.columna{
+    position: relative;
+    max-width: 1000px;
+    background: #3e4149;
+    box-shadow: 0 5px 15px rgba(0,0,0, .5);
+    border: 5px black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+.columna p{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+h2{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin: 15px 0 0 0;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.466);
+
+}
+
+.comprar{
+   
+    font-size: 30px;
+    color: white;
+    background: #3e4149;
+    
+}
+
+.columna:hover{
+    background: #537780;
+    transition: all .5s ease-in-out;
+
+    ;
+}
+
+.comprar:hover{
+    background: black;
+}
+
+
+

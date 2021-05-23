@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../Imagenes/fondo.jpg);
+    font-family: 'Oswald', sans-serif;
+}
+
+.logoi{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 5px;
+    padding: 0;
+    
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background: #222831;
+}
+
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0 5px;
+    line-height: 80px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+
+nav li{
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+a.activacion,a:hover{
+    border: 1px solid white;
+    transition: .5s;
+}
+
+.footer{
+    background-color: #222831;
+    padding: 1px 0;
+    margin-top: 150px;
+ 
+    
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer1{
+    width: 60%;
+    padding: 10px;
+   
+}
+
+.footer1 h4{
+font-size: 18px;
+color: white;
+text-transform: capitalize;
+margin-bottom: 10px;
+font-weight: 500;
+position: relative;
+}
+
+
+.footer2 h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: 500;
+    position: relative;
+    }
+
+.footer1 li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer2 li a{
+    text-decoration: none;
+    color: white;
+}
+
+.formulario{
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 40px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 20px;
+}
+
+.formulario h4{
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    
+}
+
+.control{
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 16px 0;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    font-size: 20px;
+    border: 1px solid transparent;
+    
+}
+
+
+.coment{
+    width: 100%;
+    padding: 100px;
+    margin: 16px 0;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    
+}
+
+.comentario{
+    color: white;
+    font-size: 25px;
+
+}
+
+button{
+    width: 100%;
+    margin-top: 30px;
+    font-size: 20px;
+    background: rgb(102, 101, 101);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+button:hover{
+    background-color: rgb(56, 54, 54);
+    transition: all .3s ease-in-out;
+}
+
+
+
+

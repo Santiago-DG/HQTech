@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background: url(../Imagenes/fondo.jpg);
+    background-size: 100% ;
+}
+
+.logoi{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 5px;
+    padding: 0;
+    
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background: #222831;
+}
+
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0 5px;
+    line-height: 80px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+
+nav li{
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+a.activacion,a:hover{
+    border: 1px solid white;
+    transition: .5s;
+}
+
+.footer{
+    background-color: #222831;
+    padding: 1px 0;
+    margin-top: auto;
+    
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer1{
+    width: 60%;
+    padding: 10px;
+   
+}
+
+.footer1 h4{
+font-size: 18px;
+color: white;
+text-transform: capitalize;
+margin-bottom: 10px;
+font-weight: 500;
+position: relative;
+}
+
+
+.footer2 h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: 500;
+    position: relative;
+    }
+
+.footer1 li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer2 li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
